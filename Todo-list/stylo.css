@@ -1,0 +1,45 @@
+body {
+    background-image: url('foto.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+  
+}
+#tarea {
+    width: 400px; 
+    margin-right: 10px; 
+}
+
+.agregar {
+    width: 60px; 
+}
+.agregar button {
+    background-color: #030202;
+    border-color: #000000;
+    color: white;
+}
+
+.container {
+    background-color: #2e74b6; 
+    padding: 20px; 
+    border-radius: 10px; 
+}
+
+
+.card-body {
+    display: flex;
+    align-items: center; 
+    padding-left: 35px;
+    
+}
+
+.btn-danger { /* boton eliminar*/
+    background-color: #eb4f4f; 
+    border-color: #000000; 
+    color: white; 
+    margin-right: 20px;
+    width: 100px;
+}
+
+.btn-sm {
+    margin-left: 5px; /* Espacio: eliminar y el checkbox */
+}
